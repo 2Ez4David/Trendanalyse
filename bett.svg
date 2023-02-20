@@ -1,0 +1,974 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="800"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     class="main-svg" contentStyleType="text/css" height="600"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.0">&quot;&gt;
+    <g xmlns="http://www.w3.org/2000/svg">
+        <rect style="fill: #FFFFFF;width:800px;height:600px" width="800"
+              height="600"/>
+    </g>
+    <svg contentScriptType="text/ecmascript" width="800"
+         xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+         style="background: rgb(255, 255, 255);" class="main-svg"
+         contentStyleType="text/css" height="600"
+         preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+         version="1.0">
+        <style type="text/css" xml:space="preserve">.js-plotly-plot .plotly .cursor-ne-resize { cursor: ne-resize; }
+.js-plotly-plot .plotly .cursor-n-resize { cursor: n-resize; }
+.js-plotly-plot .plotly .cursor-nw-resize { cursor: nw-resize; }
+.js-plotly-plot .plotly .cursor-e-resize { cursor: e-resize; }
+.js-plotly-plot .plotly .cursor-w-resize { cursor: w-resize; }
+.js-plotly-plot .plotly .cursor-se-resize { cursor: se-resize; }
+.js-plotly-plot .plotly .cursor-s-resize { cursor: s-resize; }
+.js-plotly-plot .plotly .cursor-sw-resize { cursor: sw-resize; }
+.js-plotly-plot .plotly .cursor-ew-resize { cursor: ew-resize; }
+.js-plotly-plot .plotly .cursor-ns-resize { cursor: ns-resize; }
+.js-plotly-plot .plotly .cursor-crosshair { cursor: crosshair; }
+.js-plotly-plot .plotly .main-svg .draglayer { pointer-events: all; }
+.js-plotly-plot .plotly .crisp { shape-rendering: crispedges; }</style><defs id="defs-377641">
+            <g class="clips">
+                <clipPath class="plotclip" id="clip377641xyplot">
+                    <rect width="616" height="515"/>
+                </clipPath>
+                <clipPath class="axesclip" id="clip377641x">
+                    <rect x="50" width="616" y="0" height="600"/>
+                </clipPath>
+                <clipPath class="axesclip" id="clip377641y">
+                    <rect x="0" width="800" y="50" height="515"/>
+                </clipPath>
+                <clipPath class="axesclip" id="clip377641xy">
+                    <rect x="50" width="616" y="50" height="515"/>
+                </clipPath>
+            </g>
+            <g class="gradients"/>
+        </defs>
+        <g class="bglayer"/>
+        <g class="draglayer cursor-crosshair">
+            <g class="xy">
+                <rect x="50" y="50" width="616"
+                      style="fill: rgb(255, 255, 255); stroke-width: 0; pointer-events: all;"
+                      data-subplot="xy" class="nsewdrag drag" height="515"/>
+                <rect x="30" y="30" width="20"
+                      style="fill: rgb(255, 255, 255); stroke-width: 0; pointer-events: all;"
+                      data-subplot="xy" class="nwdrag drag cursor-nw-resize"
+                      height="20"/>
+                <rect x="666" y="30" width="20"
+                      style="fill: rgb(255, 255, 255); stroke-width: 0; pointer-events: all;"
+                      data-subplot="xy" class="nedrag drag cursor-ne-resize"
+                      height="20"/>
+                <rect x="30" y="565" width="20"
+                      style="fill: rgb(255, 255, 255); stroke-width: 0; pointer-events: all;"
+                      data-subplot="xy" class="swdrag drag cursor-sw-resize"
+                      height="20"/>
+                <rect x="666" y="565" width="20"
+                      style="fill: rgb(255, 255, 255); stroke-width: 0; pointer-events: all;"
+                      data-subplot="xy" class="sedrag drag cursor-se-resize"
+                      height="20"/>
+                <rect x="111.6" y="565.5" width="492.8"
+                      style="fill: rgb(255, 255, 255); stroke-width: 0; pointer-events: all;"
+                      data-subplot="xy" class="ewdrag drag cursor-ew-resize"
+                      height="20"/>
+                <rect x="50" y="565.5" width="61.6"
+                      style="fill: rgb(255, 255, 255); stroke-width: 0; pointer-events: all;"
+                      data-subplot="xy" class="wdrag drag cursor-w-resize"
+                      height="20"/>
+                <rect x="604.4" y="565.5" width="61.6"
+                      style="fill: rgb(255, 255, 255); stroke-width: 0; pointer-events: all;"
+                      data-subplot="xy" class="edrag drag cursor-e-resize"
+                      height="20"/>
+                <rect x="29.5" y="101.5" width="20"
+                      style="fill: rgb(255, 255, 255); stroke-width: 0; pointer-events: all;"
+                      data-subplot="xy" class="nsdrag drag cursor-ns-resize"
+                      height="412"/>
+                <rect x="29.5" y="513.5" width="20"
+                      style="fill: rgb(255, 255, 255); stroke-width: 0; pointer-events: all;"
+                      data-subplot="xy" class="sdrag drag cursor-s-resize"
+                      height="51.5"/>
+                <rect x="29.5" y="50" width="20"
+                      style="fill: rgb(255, 255, 255); stroke-width: 0; pointer-events: all;"
+                      data-subplot="xy" class="ndrag drag cursor-n-resize"
+                      height="51.5"/>
+            </g>
+        </g>
+        <g class="layer-below">
+            <g class="imagelayer"/>
+            <g class="shapelayer"/>
+        </g>
+        <g class="cartesianlayer">
+            <g class="subplot xy">
+                <g class="layer-subplot" style="fill: rgb(255, 255, 255);">
+                    <g class="shapelayer"/>
+                    <g class="imagelayer"/>
+                </g>
+                <g class="gridlayer" style="fill: rgb(255, 255, 255);">
+                    <g class="x">
+                        <path d="M0,50v515"
+                              style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; stroke-width: 1px;"
+                              class="xgrid crisp" transform="translate(83.8,0)"/>
+                        <path d="M0,50v515"
+                              style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; stroke-width: 1px;"
+                              class="xgrid crisp"
+                              transform="translate(148.57,0)"/>
+                        <path d="M0,50v515"
+                              style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; stroke-width: 1px;"
+                              class="xgrid crisp"
+                              transform="translate(213.34,0)"/>
+                        <path d="M0,50v515"
+                              style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; stroke-width: 1px;"
+                              class="xgrid crisp"
+                              transform="translate(278.11,0)"/>
+                        <path d="M0,50v515"
+                              style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; stroke-width: 1px;"
+                              class="xgrid crisp"
+                              transform="translate(342.89,0)"/>
+                        <path d="M0,50v515"
+                              style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; stroke-width: 1px;"
+                              class="xgrid crisp"
+                              transform="translate(407.66,0)"/>
+                        <path d="M0,50v515"
+                              style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; stroke-width: 1px;"
+                              class="xgrid crisp"
+                              transform="translate(472.43,0)"/>
+                        <path d="M0,50v515"
+                              style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; stroke-width: 1px;"
+                              class="xgrid crisp" transform="translate(537.2,0)"/>
+                        <path d="M0,50v515"
+                              style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; stroke-width: 1px;"
+                              class="xgrid crisp"
+                              transform="translate(601.97,0)"/>
+                    </g>
+                    <g class="y">
+                        <path d="M50,0h616"
+                              style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; stroke-width: 1px;"
+                              class="ygrid crisp"
+                              transform="translate(0,536.25)"/>
+                        <path d="M50,0h616"
+                              style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; stroke-width: 1px;"
+                              class="ygrid crisp"
+                              transform="translate(0,470.89)"/>
+                        <path d="M50,0h616"
+                              style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; stroke-width: 1px;"
+                              class="ygrid crisp"
+                              transform="translate(0,405.54)"/>
+                        <path d="M50,0h616"
+                              style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; stroke-width: 1px;"
+                              class="ygrid crisp"
+                              transform="translate(0,340.18)"/>
+                        <path d="M50,0h616"
+                              style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; stroke-width: 1px;"
+                              class="ygrid crisp"
+                              transform="translate(0,274.82)"/>
+                        <path d="M50,0h616"
+                              style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; stroke-width: 1px;"
+                              class="ygrid crisp"
+                              transform="translate(0,209.46)"/>
+                        <path d="M50,0h616"
+                              style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; stroke-width: 1px;"
+                              class="ygrid crisp"
+                              transform="translate(0,144.11)"/>
+                        <path d="M50,0h616"
+                              style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; stroke-width: 1px;"
+                              class="ygrid crisp" transform="translate(0,78.75)"/>
+                    </g>
+                </g>
+                <g class="zerolinelayer" style="fill: rgb(255, 255, 255);"/>
+                <path class="xlines-below" style="fill: rgb(255, 255, 255);"/>
+                <path class="ylines-below" style="fill: rgb(255, 255, 255);"/>
+                <g class="overlines-below" style="fill: rgb(255, 255, 255);"/>
+                <g class="xaxislayer-below" style="fill: rgb(255, 255, 255);"/>
+                <g class="yaxislayer-below" style="fill: rgb(255, 255, 255);"/>
+                <g class="overaxes-below" style="fill: rgb(255, 255, 255);"/>
+                <g style="fill: rgb(255, 255, 255);" class="plot"
+                   clip-path="url(&apos;#clip377641xyplot&apos;)"
+                   transform="translate(50, 50)">
+                    <g class="scatterlayer mlayer">
+                        <g class="trace scatter trace6e34fa"
+                           style="stroke-miterlimit: 2; opacity: 1;">
+                            <g class="fills"/>
+                            <g class="errorbars"/>
+                            <g class="lines">
+                                <path class="js-line"
+                                      style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(31, 119, 180); stroke-opacity: 1; stroke-width: 1px; opacity: 1;"
+                                      d="M33.8,159.46L38.12,28.75L42.44,355.54L51.07,486.25L55.39,486.25L64.03,486.25L68.34,420.89L72.66,290.18L76.98,486.25L81.3,355.54L85.62,420.89L89.94,355.54L94.25,355.54L98.57,290.18L102.89,486.25L107.21,355.54L111.53,159.46L115.84,420.89L120.16,486.25L124.48,355.54L128.8,420.89L133.12,420.89L137.43,28.75L141.75,28.75L146.07,420.89L171.98,420.89L176.3,355.54L180.62,355.54L184.93,420.89L189.25,355.54L193.57,355.54L197.89,355.54L202.21,224.82L206.52,486.25L210.84,486.25L215.16,355.54L219.48,290.18L223.8,355.54L228.11,355.54L232.43,290.18L236.75,355.54L241.07,355.54L245.39,290.18L249.71,94.11L254.02,290.18L258.34,290.18L262.66,420.89L266.98,355.54L271.3,355.54L275.61,94.11L279.93,355.54L284.25,290.18L288.57,355.54L292.89,159.46L297.2,355.54L301.52,290.18L305.84,290.18L310.16,355.54L314.48,355.54L318.8,355.54L323.11,290.18L327.43,355.54L331.75,159.46L336.07,224.82L340.39,224.82L344.7,420.89L349.02,486.25L353.34,420.89L357.66,224.82L361.98,355.54L366.29,420.89L370.61,224.82L374.93,224.82L379.25,420.89L383.57,420.89L387.89,420.89L392.2,159.46L396.52,420.89L400.84,355.54L405.16,290.18L409.48,355.54L418.11,355.54L422.43,420.89L431.07,290.18L435.38,159.46L439.7,420.89L444.02,290.18L448.34,224.82L452.66,290.18L456.97,290.18L461.29,159.46L465.61,290.18L469.93,28.75L474.25,159.46L478.57,355.54L482.88,355.54L487.2,290.18L491.52,420.89L495.84,355.54L500.16,355.54L504.47,94.11L508.79,290.18L513.11,290.18L517.43,290.18L521.75,420.89L526.06,224.82L530.38,486.25L534.7,355.54L539.02,420.89L543.34,94.11L547.66,159.46L551.97,355.54L556.29,355.54L564.93,355.54L569.25,420.89L573.56,355.54L577.88,355.54L582.2,355.54"/>
+                            </g>
+                            <g class="points">
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(33.8,159.46)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(38.12,28.75)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(42.44,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(46.75,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(51.07,486.25)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(55.39,486.25)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(59.71,486.25)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(64.03,486.25)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(68.34,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(72.66,290.18)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(76.98,486.25)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(81.3,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(85.62,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(89.94,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(94.25,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(98.57,290.18)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(102.89,486.25)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(107.21,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(111.53,159.46)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(115.84,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(120.16,486.25)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(124.48,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(128.8,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(133.12,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(137.43,28.75)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(141.75,28.75)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(146.07,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(150.39,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(154.71,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(159.03,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(163.34,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(167.66,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(171.98,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(176.3,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(180.62,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(184.93,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(189.25,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(193.57,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(197.89,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(202.21,224.82)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(206.52,486.25)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(210.84,486.25)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(215.16,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(219.48,290.18)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(223.8,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(228.11,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(232.43,290.18)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(236.75,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(241.07,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(245.39,290.18)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(249.71,94.11)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(254.02,290.18)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(258.34,290.18)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(262.66,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(266.98,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(271.3,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(275.61,94.11)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(279.93,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(284.25,290.18)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(288.57,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(292.89,159.46)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(297.2,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(301.52,290.18)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(305.84,290.18)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(310.16,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(314.48,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(318.8,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(323.11,290.18)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(327.43,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(331.75,159.46)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(336.07,224.82)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(340.39,224.82)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(344.7,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(349.02,486.25)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(353.34,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(357.66,224.82)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(361.98,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(366.29,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(370.61,224.82)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(374.93,224.82)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(379.25,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(383.57,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(387.89,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(392.2,159.46)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(396.52,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(400.84,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(405.16,290.18)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(409.48,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(413.79,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(418.11,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(422.43,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(426.75,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(431.07,290.18)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(435.38,159.46)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(439.7,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(444.02,290.18)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(448.34,224.82)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(452.66,290.18)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(456.97,290.18)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(461.29,159.46)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(465.61,290.18)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(469.93,28.75)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(474.25,159.46)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(478.57,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(482.88,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(487.2,290.18)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(491.52,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(495.84,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(500.16,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(504.47,94.11)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(508.79,290.18)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(513.11,290.18)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(517.43,290.18)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(521.75,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(526.06,224.82)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(530.38,486.25)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(534.7,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(539.02,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(543.34,94.11)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(547.66,159.46)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(551.97,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(556.29,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(560.61,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(564.93,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(569.25,420.89)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(573.56,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(577.88,355.54)"/>
+                                <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                      style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                      class="point"
+                                      transform="translate(582.2,355.54)"/>
+                            </g>
+                            <g class="text"/>
+                        </g>
+                    </g>
+                </g>
+                <g class="overplot" style="fill: rgb(255, 255, 255);"/>
+                <path class="xlines-above crisp"
+                      style="fill: rgb(255, 255, 255); stroke-width: 1px; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                      d="M49,565.5H666"/>
+                <path class="ylines-above crisp"
+                      style="fill: rgb(255, 255, 255); stroke-width: 1px; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                      d="M49.5,50V565"/>
+                <g class="overlines-above" style="fill: rgb(255, 255, 255);"/>
+                <g class="xaxislayer-above" style="fill: rgb(255, 255, 255);">
+                    <g class="xtick">
+                        <text x="0" y="580.4" transform="translate(83.8,0)"
+                              text-anchor="middle" data-math="N"
+                              style="font-family: sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+                              data-unformatted="01.06.2022">
+                            01.06.2022
+                        </text>
+                    </g>
+                    <g class="xtick">
+                        <text x="0" y="580.4" transform="translate(148.57,0)"
+                              text-anchor="middle" data-math="N"
+                              style="font-family: sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+                              data-unformatted="01.24.2022">
+                            01.24.2022
+                        </text>
+                    </g>
+                    <g class="xtick">
+                        <text x="0" y="580.4" transform="translate(213.34,0)"
+                              text-anchor="middle" data-math="N"
+                              style="font-family: sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+                              data-unformatted="02.19.2022">
+                            02.19.2022
+                        </text>
+                    </g>
+                    <g class="xtick">
+                        <text x="0" y="580.4" transform="translate(278.11,0)"
+                              text-anchor="middle" data-math="N"
+                              style="font-family: sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+                              data-unformatted="03.07.2022">
+                            03.07.2022
+                        </text>
+                    </g>
+                    <g class="xtick">
+                        <text x="0" y="580.4" transform="translate(342.89,0)"
+                              text-anchor="middle" data-math="N"
+                              style="font-family: sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+                              data-unformatted="03.22.2022">
+                            03.22.2022
+                        </text>
+                    </g>
+                    <g class="xtick">
+                        <text x="0" y="580.4" transform="translate(407.66,0)"
+                              text-anchor="middle" data-math="N"
+                              style="font-family: sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+                              data-unformatted="04.09.2022">
+                            04.09.2022
+                        </text>
+                    </g>
+                    <g class="xtick">
+                        <text x="0" y="580.4" transform="translate(472.43,0)"
+                              text-anchor="middle" data-math="N"
+                              style="font-family: sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+                              data-unformatted="05.03.2022">
+                            05.03.2022
+                        </text>
+                    </g>
+                    <g class="xtick">
+                        <text x="0" y="580.4" transform="translate(537.2,0)"
+                              text-anchor="middle" data-math="N"
+                              style="font-family: sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+                              data-unformatted="05.25.2022">
+                            05.25.2022
+                        </text>
+                    </g>
+                    <g class="xtick">
+                        <text x="0" y="580.4" transform="translate(601.97,0)"
+                              text-anchor="middle" data-math="N"
+                              style="font-family: sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+                              data-unformatted="06.14.2022">
+                            06.14.2022
+                        </text>
+                    </g>
+                </g>
+                <g class="yaxislayer-above" style="fill: rgb(255, 255, 255);">
+                    <g class="ytick">
+                        <text x="46.6" y="4.199999999999999"
+                              transform="translate(0,536.25)" text-anchor="end"
+                              data-math="N"
+                              style="font-family: sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+                              data-unformatted="2">
+                            2
+                        </text>
+                    </g>
+                    <g class="ytick">
+                        <text x="46.6" y="4.199999999999999"
+                              transform="translate(0,470.89)" text-anchor="end"
+                              data-math="N"
+                              style="font-family: sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+                              data-unformatted="3">
+                            3
+                        </text>
+                    </g>
+                    <g class="ytick">
+                        <text x="46.6" y="4.199999999999999"
+                              transform="translate(0,405.54)" text-anchor="end"
+                              data-math="N"
+                              style="font-family: sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+                              data-unformatted="4">
+                            4
+                        </text>
+                    </g>
+                    <g class="ytick">
+                        <text x="46.6" y="4.199999999999999"
+                              transform="translate(0,340.18)" text-anchor="end"
+                              data-math="N"
+                              style="font-family: sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+                              data-unformatted="5">
+                            5
+                        </text>
+                    </g>
+                    <g class="ytick">
+                        <text x="46.6" y="4.199999999999999"
+                              transform="translate(0,274.82)" text-anchor="end"
+                              data-math="N"
+                              style="font-family: sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+                              data-unformatted="6">
+                            6
+                        </text>
+                    </g>
+                    <g class="ytick">
+                        <text x="46.6" y="4.199999999999999"
+                              transform="translate(0,209.46)" text-anchor="end"
+                              data-math="N"
+                              style="font-family: sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+                              data-unformatted="7">
+                            7
+                        </text>
+                    </g>
+                    <g class="ytick">
+                        <text x="46.6" y="4.199999999999999"
+                              transform="translate(0,144.11)" text-anchor="end"
+                              data-math="N"
+                              style="font-family: sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+                              data-unformatted="8">
+                            8
+                        </text>
+                    </g>
+                    <g class="ytick">
+                        <text x="46.6" y="4.199999999999999"
+                              transform="translate(0,78.75)" text-anchor="end"
+                              data-math="N"
+                              style="font-family: sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+                              data-unformatted="9">
+                            9
+                        </text>
+                    </g>
+                </g>
+                <g class="overaxes-above" style="fill: rgb(255, 255, 255);"/>
+            </g>
+        </g>
+        <g class="polarlayer"/>
+        <g class="ternarylayer"/>
+        <g class="geolayer"/>
+        <g class="pielayer"/>
+        <g class="sunburstlayer"/>
+        <g class="glimages"/>
+    </svg>
+    <svg contentScriptType="text/ecmascript" width="800"
+         xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+         class="main-svg" contentStyleType="text/css" height="600"
+         preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+         version="1.0">
+        <style type="text/css" xml:space="preserve">.gtitle { font-size: 24px !important; }</style><style type="text/css"
+               xml:space="preserve">.js-plotly-plot .plotly .user-select-none { user-select: none; }</style><defs id="topdefs-377641">
+            <g class="clips"/>
+            <clipPath id="legend377641">
+                <rect x="0" width="122" height="29" y="0"/>
+            </clipPath>
+        </defs>
+        <g class="layer-above">
+            <g class="imagelayer"/>
+            <g class="shapelayer"/>
+        </g>
+        <g class="infolayer">
+            <g class="legend" pointer-events="all"
+               transform="translate(666, 50)">
+                <rect x="0" y="0" width="122"
+                      style="stroke: rgb(68, 68, 68); stroke-opacity: 1; fill: rgb(255, 255, 255); fill-opacity: 1; stroke-width: 0px;"
+                      shape-rendering="crispEdges" class="bg" height="29"/>
+                <g class="scrollbox" transform="translate(0, 0)"
+                   clip-path="url(&apos;#legend377641&apos;)">
+                    <g class="groups">
+                        <g class="traces" style="opacity: 1;"
+                           transform="translate(0, 14.5)">
+                            <text x="40" y="4.680000000000001"
+                                  text-anchor="start" data-math="N"
+                                  style="font-family: sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+                                  class="legendtext user-select-none"
+                                  data-unformatted="Sum(Gewicht)">
+                                Sum(Gewicht)
+                            </text>
+                            <g class="layers" style="opacity: 1;">
+                                <g class="legendfill"/>
+                                <g class="legendlines">
+                                    <path class="js-line"
+                                          style="fill: none; stroke: rgb(31, 119, 180); stroke-opacity: 1; stroke-width: 1px;"
+                                          d="M5,0h30"/>
+                                </g>
+                                <g class="legendsymbols">
+                                    <g class="legendpoints">
+                                        <path d="M2,0A2,2 0 1,1 0,-2A2,2 0 0,1 2,0Z"
+                                              style="opacity: 0.5; stroke-width: 0px; fill: rgb(64, 64, 64); fill-opacity: 1;"
+                                              class="scatterpts"
+                                              transform="translate(20,0)"/>
+                                    </g>
+                                </g>
+                            </g>
+                            <rect x="0" y="-9.5" width="162"
+                                  style="cursor: pointer; fill: rgb(0, 0, 0); fill-opacity: 0;"
+                                  class="legendtoggle" height="19"
+                                  pointer-events="all"/>
+                        </g>
+                    </g>
+                </g>
+                <rect x="0" y="0" width="0"
+                      style="fill: rgb(128, 139, 164); fill-opacity: 1;" rx="20"
+                      class="scrollbar" height="0" ry="3"/>
+            </g>
+            <g class="g-gtitle">
+                <text x="400" y="50" text-anchor="middle" data-math="N"
+                      style="font-family: sans-serif; font-size: 17px; fill: rgb(68, 68, 68); opacity: 1; font-weight: normal; white-space: pre;"
+                      class="gtitle" data-unformatted="Test" dy="-.5em">
+                    Test
+                </text>
+            </g>
+            <g class="g-xtitle" transform="translate(0,-20)">
+                <text x="358" y="617" text-anchor="middle" data-math="N"
+                      style="font-family: sans-serif; font-size: 14px; fill: rgb(68, 68, 68); opacity: 1; font-weight: normal; white-space: pre;"
+                      class="xtitle" data-unformatted="Date">
+                    Date
+                </text>
+            </g>
+            <g class="g-ytitle" transform="translate(1,0)">
+                <text x="12" y="307.5" transform="rotate(-90,12,307.5)"
+                      text-anchor="middle" data-math="N"
+                      style="font-family: sans-serif; font-size: 14px; fill: rgb(68, 68, 68); opacity: 1; font-weight: normal; white-space: pre;"
+                      class="ytitle" data-unformatted="Gewicht">
+                    Gewicht
+                </text>
+            </g>
+        </g>
+        <g class="menulayer"/>
+        <g class="zoomlayer"/>
+    </svg>
+    <svg contentScriptType="text/ecmascript" width="800"
+         xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+         class="main-svg" contentStyleType="text/css" height="600"
+         preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+         version="1.0">
+        <g class="hoverlayer"/>
+    </svg>
+</svg>
